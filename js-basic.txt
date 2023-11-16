@@ -1,0 +1,63 @@
+JAVASCRIPT BASIC
+
+1.Console log data diri
+Nama
+Asal daerah
+Tanggal lahir
+Umur
+Posisi pekerjaan
+
+
+ let nama = "dewi sekar"
+let asalDaerah = "smg"
+let TanggalLahir=10
+ let umur = 19
+console.log(nama)
+
+2.Berikan single comments pada setiap baris data diri yang ada pada soal nomor 1
+// let nama = "dewi sekar" 
+// let asalDaerah = "smg"
+
+3.Buat variabel untuk menampung data diri yang telah dibuat pada nomor 1. Lalu panggil dan tampilkan dengan menggunakan console log
+ const dataDiri = { 
+   nama:'dewi sekar',
+   umur:19}
+console.log(dataDiri)
+
+4.Lakukan operasi matematika berikut. Simpan hasil pada sebuah variabel untuk masing-masing operasi.
+let hasil = 0;
+let tambah = (a,b) => {
+    hasil += a + b
+}
+
+tambah(2,3)
+console.log(hasil)
+
+
+JS LOOP
+1.Bedanya looping dan conditional
+looping: menjalankan pernyataan berulang kali sampai terpenuhinya suatu kondisi 
+conditional: perkondisian yang mana menjalankan tindakan berdasarkan kondisi dan menghasilkan true dan false
+
+2.kapan gunain looping:ketika ingin melakukan perulangan tanpa menulis satu satu
+3.looping ada apa aja:
+for:Untuk melakukan perulangan sejumlah tertentu.
+  while: Untuk melakukan perulangan selama kondisi tertentu terpenuhi.
+  do...while :Sama seperti while loop, namun melakukan setidaknya satu iterasi terlebih dahulu sebelum mengevaluasi kondisi.
+4.// menampilkan teks 'user ke -1 sampai User ke-100 pake for loop
+
+for(let i = 1;  i<= 100; i++){
+    console.log('User ke - ' , i)
+}
+
+  5.// perulangan for loop yang melakukan iterasi 0-20
+// 1.lakukan pengecekan apakah nilainya ganjil atau genap
+// 2.tampilkan keterangannya
+
+for(let i = 0; i <= 20; i++){
+    if(i%2 === 0){
+        console.log(i, 'ini bilangan genap')
+    }else{
+        console.log( i ,'ini ganjil')
+    }
+}
